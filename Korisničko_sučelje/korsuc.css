@@ -1,0 +1,96 @@
+@import url("https://bootswatch.com/flatly/bootstrap.min.css");
+header{
+  margin-top: 0px;
+}
+body {
+  padding-top: 50px;
+}
+footer {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #3f681c !important;
+}
+.lista li{
+   list-style-type: none;
+   margin-top: 20px;
+}
+.lista li a{
+  color:black;
+
+}
+.lista li a:hover{
+  text-decoration: none;
+  color:green;
+}
+.sidebar-nav{
+  background:#FB6542 !important;
+}
+.paragraph{
+  background: #ffebb3 !important;
+}
+/**/
+#hero{
+  background-image: url('banne.jpg');
+  background-size: cover;
+  background-position: center center;
+  position:relative;
+  top:0;
+  bottom: 0;
+  height:100vh;
+  z-index: -100;
+}
+#hero-overlay{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width:100%;
+  z-index: -5;
+  background-color: rgba(0,0,0,0.25)
+}
+
+/*Sidebar*/
+
+
+
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    background:#ecf0f1;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    display: none !important;
+    left: -40%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 40%;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    margin-left: 12px;
+  }
+}
+
+#sidebar {
+    padding:15px;
+    margin-top:10px;
+}
+
+}
+

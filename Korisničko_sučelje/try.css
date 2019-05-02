@@ -1,0 +1,194 @@
+@import url("https://bootswatch.com/flatly/bootstrap.min.css");
+/*Global*/
+header{
+  margin-top: 0px;
+}
+body {
+  padding-top: 50px;
+}
+footer {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #375E97 !important;
+}
+/*Side bar izbori*/
+.sbizbori{
+  font-size: 18px;
+  font-weight: 5px;
+  color:white !important;
+  margin-left: 0px;
+  transition: margin-left 2s;
+}
+.sbizbori:hover{
+  font-weight: 4px;
+  color:white !important;
+  margin-left: 33px;
+  transition: margin-left 2s;
+}
+
+/*Izbori u profilu i messages*/
+.d-izbor:hover{
+  background:#b4c7e4 !important;
+}
+/*Logo*/
+.ime{
+  color:#ff5c33;
+  font-weight: bold;
+
+}
+.ime:hover{
+  border:solid 0.8px #66ff33;
+  border-radius: 100%;
+  transition: border 1.5s;
+  
+}
+
+/*Neznam ni sam*/
+.lista li{
+   list-style-type: none;
+   margin-top: 20px;
+   border-bottom: 1px solid white;
+}
+.lista li:hover{
+   list-style-type: none;
+   margin-top: 20px;
+   border-bottom: 1px solid white;
+}
+
+.lista li a{
+  color:black;
+
+}
+.lista li a:hover{
+  text-decoration: none;
+  color:green;
+}
+.sidebar-nav{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background:#FB6542 !important;
+  width:300px !important;
+  /*opacity: 0.80;*/
+  height: 72.5vh;
+}
+.paragraph{
+  background: #ffebb3 !important;
+  opacity: 0.80;
+}
+#create-button{
+  margin-left: 20px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    color: white;
+    border: 1px solid #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;  
+}
+#create-button:hover{
+    background-color: white;
+    transition: background-color 1s;
+    color:black !important;
+    transition: color 1s;
+    text-decoration: none;
+}
+.onnav{
+  margin-top:8px;
+  color:white !important;
+  margin-left: 8px;
+}
+/**/
+#hero{
+  background-image: url('banne.jpg');
+  background-size: cover;
+  background-position: center center;
+  position:relative;
+  top:0;
+  bottom: 0;
+  height:100vh;
+  z-index: -100;
+}
+#hero-overlay{
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width:100%;
+  z-index: -5;
+  background-color: rgba(0,0,0,0.25)
+}
+
+/*Sidebar*/
+
+
+#hidden{
+  display:none;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  /*Kopy-pastean code*/
+  #hidden{
+  display:inline;
+  }
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    background:#ecf0f1;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    display: none !important;
+    left: -40%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 40%;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    margin-left: 12px;
+  }
+
+
+#sidebar {
+    padding:15px;
+    margin-top:10px;
+}
+/*Moj code*/
+
+#mobile-button{
+  background:white !important;
+}
+#create-button{
+    margin-top:10px;
+    margin-left: 20px;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    color: white;
+    border: 1px solid #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;  
+}
+
+
+
+}
+
+
+
+

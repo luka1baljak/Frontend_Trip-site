@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home | Welcome</title>
+	<link rel="stylesheet" type="text/css" href="fp_style.css">
+	<link rel="stylesheet" type="text/css" href="modal.css">
+
+	<!--Linkovi -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+  
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<script type="sketch.js"></script>
+</head>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+      	<h4 class="modal-title">Sign in</h4>
+
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+      </div>
+      <div id="modal-body"class="modal-body">
+       	<label for="email">Email:</label>
+       	<br>
+       	<input id="email" type="email" name="email" size="35"></input>
+       	<br>
+       	<br>
+       	<label for="password">Password:</label>
+       	<br>
+       	<input type="password" name="password" size="35"></input>
+       	<p>Forgot &nbsp<a href="">password</a>?</p>
+		<br>
+    <form action="try.html">
+       	<button id="loger" type="submit">Log in</button>
+       </form>
+       	<br>
+       	<br>
+       	<p>or</p>
+       	<p>Log in with:</p>
+       	<p><a href="" class="tri"><i class="fab fa-facebook-square"></a></i>&nbsp &nbsp &nbsp &nbsp<a href="" class="tri"><i class="fab fa-google-plus"></i></a>&nbsp &nbsp &nbsp &nbsp<a href="" class="tri"><i class="fab fa-twitter-square"></i></a></p>
+      </div>
+      <div class="modal-footer">
+        <p id="fot">By signing up you agree to our <strong><a href="">Terms of Use</a></strong> and <strong><a href="">Privacy Policy</a></strong>.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+      	<h4 class="modal-title">Register</h4>
+
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        
+      </div>
+      <div class="modal-body2">
+      	<br>
+      	<label for="email2">Email:</label>
+      	<br>
+       	<input id="email2" type="email" name="email2" size="20"></input>
+       	<br>
+       	<label for="ime">Ime:</label>
+       	<br>
+       	<input id="ime" type="text" name="ime" size="20"></input>
+		<br>
+       	<label for="prezime">Prezime:</label>
+       	<br>
+       	<input id="prezime" type="text" name="prezime" size="20"></input>
+       	<br>
+       	<label for="password2">Password:</label>
+       	<br>
+       	<input id="password2" type="password" name="password2" size="20"></input>
+       	<br>
+       	<label for="password2">Confirm password:</label>
+       	<br>
+       	<input id="confirst" type="password" name="confirm" size="20"></input>
+       	<br>
+       	<br>
+       	<br>
+       	<button id="loger" type="submit">Register</button>
+       	<br>
+       	<br>
+       	<p>or</p>
+       	<br>
+       	<p>Register with:</p>
+       	<p><a href="" class="tri"><i class="fab fa-facebook-square"></a></i>&nbsp &nbsp &nbsp &nbsp<a href="" class="tri"><i class="fab fa-google-plus"></i></a>&nbsp &nbsp &nbsp &nbsp<a href="" class="tri"><i class="fab fa-twitter-square"></i></a></p>
+       
+      </div>
+      <div class="modal-footer">
+        <p id="fot">By signing up you agree to our <strong><a href="">Terms of Use</a></strong> and <strong><a href="">Privacy Policy</a></strong>.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<body id="hero">
+  <div class="preloader"></div>
+  <script src="fp.js"></script>
+	<div id="hero-overlay">
+			
+		
+
+<header>
+	<nav class="container pdio">
+		<div class="dropdown">
+  		<button id="drp" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		<i class="fa fa-chevron-down"></i>
+  		</button>
+  		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+			    <a class="dropdown-item prvi" href="abot+feat/about+features.html#features" >Features</a>
+     			<a class="dropdown-item prvi" href="abot+feat/about+features.html#about" >About</a>
+     			<div class="dropdown-divider"></div>
+     			<a class="dropdown-item drugi" href="#" data-toggle="modal" data-target="#myModal2">Register</a>
+     			<a class="dropdown-item drugi" href="#" data-toggle="modal" data-target="#myModal" >Sign in</a>
+  		</div>
+</div>
+        <ul>
+            <li style="list-style-type: none;">
+                 <h1 ><span id="ime1" class="ime">I T E R</span></h1>
+            </li>
+        </ul>
+        <ul>
+        	<li style="list-style-type: none;">
+                <a class="mali" href="abot+feat/about+features.html#features" >Features</a>
+            </li>
+            <li style="list-style-type: none;">
+                <a class="mali" href="abot+feat/about+features.html#about" >About</a>
+            </li>
+            <li style="list-style-type: none;">
+                <a id="reg"class="veliki" href="#" data-toggle="modal" data-target="#myModal2" >Register</a>
+            </li>
+
+            <li style="list-style-type: none;">
+                <a href="#" id="sign-in" class="veliki" data-toggle="modal" data-target="#myModal">Sign in</a>
+            </li>
+            
+        </ul>
+</nav>
+
+	</header>
+	<main>
+	<div class="main">
+		<div class="razmak">
+		<h1>
+			<span class="shade">Plan ahead with <span class="ime">I T E R </span><br><br> Organise your events the right way</span>
+		</h1>
+		</div>
+		<div class="razmak">
+		<h2>
+			Spend more time enjoying 
+		</h2>
+		</div>
+		<div class="razmak">
+		<h3>
+			Easy and free
+		</h3>
+		</div>
+		<div class="razmak">
+                <a id="loner"class="veliki" href="#" data-toggle="modal" data-target="#myModal2" >Sign up</a>
+		</div>
+	</div>
+	</main>
+	</div>
+	
+</body>
+
+</html>

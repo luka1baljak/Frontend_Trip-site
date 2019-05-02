@@ -1,0 +1,146 @@
+#myModal {
+   position: absolute;
+   top: 30px;
+   right: 100px;
+   bottom: 0;
+   left: 0;
+   z-index: 10040;
+   overflow: auto;
+   overflow-y: auto;
+}
+#myModal2 {
+   position: absolute;
+   top: 20px;
+   right: 100px;
+   bottom: 0;
+   left: 0;
+   z-index: 10040;
+   overflow: auto;
+   overflow-y: auto;
+}
+#fot{
+  color:#c3c3c3;
+}
+#fot a{
+  color:white !important;
+  text-decoration: none;
+}
+.modal-header{
+  background-color:#375e97; 
+  color:#fff;
+  text-align: center;
+}
+.modal-body{
+  text-align: center;
+}
+.modal-body2{
+  text-align: center;
+}
+.modal-footer{
+  font-size: 14px;
+  background-color:#375e97; 
+  color:#fff;
+  text-align: center;
+}
+
+.tri{
+  font-size:26px;
+  background: white;
+  color:#698fc9;
+  font-size:34px;
+}
+.tri:hover{
+  
+  background:#698fc9;
+  color:white;
+  transition:background 1s;
+  transition: color 1s;
+}
+/*
+#modal-body{
+  background: url('sketch.js')
+}*/
+#loger{
+  display: inline-block;
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    border: 1px solid #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-decoration: none;
+  background-color: #698fc9;
+  border:1px solid #698fc9;
+  margin-top: -11px !important;
+}
+#loger:hover{
+  background-color: #375e97;
+  transition: background-color 1s;
+  border:1px solid #375e97;
+  transition: border 1s;
+  color:white !important;
+  text-decoration: none;
+}
+
+input[type=email] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=email]:focus {
+    border-color:#333;
+}
+
+input[type=email] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=text] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input[type=password] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=password]:focus {
+    border-color:#333;
+}
+
+input[type=password] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}

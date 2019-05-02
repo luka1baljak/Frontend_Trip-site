@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IzletX | Browse</title>
+    <link rel="stylesheet" type="text/css" href="profil-izleta.css">
+
+    <!--Linkovi -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="sketch.js"></script>
+</head>
+<body>
+<div class="row">
+    <div class="col-md-12" style="margin-top: 40px;">
+        <a id="back" href="try.html"><i class="fas fa-arrow-circle-left"></i>&nbspNatrag</a>
+        <a id="go" href="try.html"><i class="fas fa-arrow-circle-right"></i>&nbspJoin</a>
+    </div>
+</div>
+    <div class="container emp-profile">
+            <form method="post">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="profile-img">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83998.75769393811!2d2.2770197739280174!3d48.85895068137428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sPariz%2C+Francuska!5e0!3m2!1shr!2shr!4v1556630604553!5m2!1shr!2shr" width="600" height="450" frameborder="0" style="border:0;height:200px;width:250px;" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="profile-head">
+                                    <h5>
+                                        Izlet 1
+                                    </h5>
+                                    <h6>
+                                        Paris,France
+                                    </h6>
+                                    <p class="proile-rating">TRAJANJE : <span>6 dana</span></p>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">O izletu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Detalji</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="opis-tab" data-toggle="tab" href="#opis" role="tab" aria-controls="profile" aria-selected="false">Opis izleta</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit"/>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="profile-work">
+                            <p>SUDIONCI</p>
+                            <a href="profilkorisnika.html">Korisnik-2</a><br/>
+                            <a href="profilkorisnika.html">Korisnik-1</a><br/>
+                            <a href="profilkorisnika.html">Korisnik0</a><br />
+                            <a href="profilkorisnika.html">Korisnik1</a><br/>
+                            <a href="profilkorisnika.html">Korisnik2</a><br/>
+                            <a href="profilkorisnika.html">Korisnik3</a><br/>
+                            <a href="profilkorisnika.html">Korisnik4</a><br/>
+                            <a href="profilkorisnika.html">Korisnik5</a><br/>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="tab-content profile-tab" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>ID</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>152</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Stvorio</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>TheOriginal2</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Kontakt</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>oginiale@gmail.com</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label>Podaci8</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p>Podaci9</p>
+                                            </div>
+                                        </div>
+                                       
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <label>Troškovi</label>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <p>Proin metus enim, tincidunt eget commodo ut, ornare id dui. In ac augue risus. Nunc euismod laoreet est, in congue justo fermentum sit amet. Donec rhoncus sem et feugiat lobortis. Etiam a porta neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque et ex aliquet, volutpat ante ac, rutrum diam.</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <label>Ukupni troškovi</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <p>200$</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <label>Datum polaska</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <p>21.12.2012</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <label>Datum povratka</label>
+                                            </div>
+                                            <div class="col-md-8">
+                                                <p>28.12.2012</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="opis" role="tabpanel" aria-labelledby="opis-tab">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <p>
+                                                    Donec pretium sollicitudin risus, a blandit est dapibus a. Nullam molestie maximus orci vitae dignissim. Nullam sit amet volutpat velit, hendrerit lacinia neque. Aenean porta mollis venenatis. Sed aliquam pulvinar elit in rutrum. Sed a lobortis ipsum. Proin laoreet elementum risus ac mollis. Duis malesuada nunc purus, at consectetur purus tincidunt ut. Nunc rhoncus ornare lorem, sed pellentesque urna cursus convallis. Integer molestie tellus at nibh egestas pellentesque.
+                                                    Nam suscipit in lectus et porta. Vestibulum viverra diam urna, eget volutpat tortor hendrerit vitae. Morbi mollis blandit enim, id convallis nunc eleifend et. Vestibulum tempor vestibulum lorem in facilisis. Aenean egestas purus magna, ac rutrum augue vestibulum non. Quisque fringilla eros at ex bibendum pretium. Ut nulla nibh, ultricies quis luctus in, porttitor ac ex. Fusce posuere lacus dui, eu sollicitudin diam pulvinar eget. Donec vel nunc faucibus, consequat massa non, sagittis ligula. Phasellus nec elit eleifend, posuere diam id, porttitor tellus. Etiam nec turpis id massa varius porta eget quis orci. In in semper mauris, sed malesuada magna. Donec pulvinar enim eget porttitor pellentesque. Sed consequat sed ante in tempor. Morbi efficitur bibendum ultricies. Integer libero ipsum, viverra efficitur erat et, condimentum sodales dolor.
+
+                                                    Vivamus leo leo, tempor vitae ipsum eu, dignissim sodales purus. Vivamus consectetur quam mi, ac maximus neque venenatis a. Mauris ut ante finibus, varius eros et, egestas ante. Ut dignissim a lacus at efficitur. Mauris tristique porttitor fringilla. Ut bibendum in nulla feugiat tristique. Nulla tristique id massa vitae gravida. Sed sodales ante vel nisi gravida, eu ullamcorper velit ultricies.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                             <!--   <div class="row">
+                                    <div class="col-md-12">
+                                        <label>Your Bio</label><br/>
+                                        <p>Your detail description</p>
+                                    </div>
+                                </div>-->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>           
+        </div>
+</body>
+</html>

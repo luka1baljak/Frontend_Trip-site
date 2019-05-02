@@ -1,0 +1,96 @@
+#hero{
+  background-image: url('banne.jpg');
+  background-size: cover;
+  background-position: center center;
+  position:relative;
+  top:0;
+  bottom: 0;
+  height:160vh;
+  z-index: -100;
+}
+
+#hero-overlay{
+  position:relative;
+  margin-left: 8px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width:100%;
+  z-index: -5;
+  background-color: rgba(0,0,0,0.25);
+}
+#nazad{
+	float:right;
+	padding: 12px 20px;
+	background-color: #00cccc;
+	color:white;
+}
+#nazad:hover{
+	text-decoration: none;
+}
+h1{
+
+	display:inline-block;
+}
+textarea {
+  width: 300px;
+  height: 125px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  resize: none;
+}
+.con {
+  width: 300px;
+  clear: both;
+}
+
+.con input {
+  width: 100%;
+  clear: both;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.con input:focus {
+    outline:none;
+    background-color: lightblue;
+}
+#nf{
+	 background-image: linear-gradient(#375E97, #FB6542);
+	color:white;
+}
+button {
+  background-color: #00cccc; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
+@media screen and (max-width: 768px){
+#hero{
+  display: none;
+}
+
+#hero-overlay{
+  display:none;
+}
+textarea {
+  margin-left: 100px !important;
+  width: 300px;
+  height: 125px;
+}
+button{
+  margin-left:200px !important;
+}
+}
